@@ -3,13 +3,22 @@ body {
 
 }
 
-{wonderwall} {width: 40%;}
+.wonderwall {
+    width: 40%;
+}
 
-{inglaterra} {width: 40%;}
+.inglaterra {
+    width: 20%;
+}
 
-{momento}  {width: 40%;}
+.palavra { 
+    width: 40%;
+}
 
-{comunão} {width: 40%;}
+.comunhão {
+    width: 40%;
+}
 
-{esperança} {width: 40%;}
-
+.esperança {
+    width: 40%;
+}
