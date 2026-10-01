@@ -22,3 +22,11 @@ body {
 .esperança {
     width: 40%;
 }
+
+
+.lista {
+    text-align: left 
+    font-style: italic;
+    text-decoration: overline;
+    color: ghostwhite;
+}
