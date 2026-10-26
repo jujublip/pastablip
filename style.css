@@ -1,35 +1,104 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color:rgb(43, 113, 136);
-
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f1e8;
+    color: #333333;
+    line-height: 1.8;
 }
 
-.wonderwall {
-    width: 30%;
+header {
+    background-color: #173d35;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
 }
 
-.inglaterra {
-    width: 30%;
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
 }
 
-.palavra { 
-    width: 30%;
+header p {
+    font-size: 1.1rem;
+    color: #e5eadd;
 }
 
-.comunhão {
-    width: 30%;
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
 }
 
-.esperança {
-    width: 30%;
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07);
 }
 
-
-.lista {
-    text-align: left 
-    font-style: italic;
-    text-decoration: overline;
-    color: ghostwhite;
+h2 {
+    color: #245b4b;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #d6b56d;
+    padding-bottom: 8px;
 }
+
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.imagem {
+    display: block;
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+ul {
+    margin: 15px 0 20px 30px;
+    padding-left: 10px;
+}
+
+li {
+    margin-bottom: 8px;
+    padding-left: 5px;
+}
+
+.destaque {
+    background-color: #edf4ee;
+    border-left: 5px solid #245b4b;
+    padding: 18px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #173d35;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 35px;
+}
+
+footer a {
+    color: #f1d28c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
 /* Calendário do Jesus Club */
 
 #calendario-jesus-club .calendario-cabecalho {
@@ -70,7 +139,21 @@ body {
     margin-top: 20px;
 }
 
+/* Ajustes para celulares */
+
 @media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    main {
+        padding: 0 12px;
+    }
+
     #calendario-jesus-club .calendario-dias {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
