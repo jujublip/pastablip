@@ -13,8 +13,8 @@ body {
 }
 
 header {
-    background-color: #173d35;
-    color: purple;
+    background-color: #4f2188; /* Alterado para roxo */
+    color: white;
     text-align: center;
     padding: 35px 20px;
 }
@@ -46,7 +46,7 @@ section {
 h2 {
     color: #245b4b;
     margin-bottom: 15px;
-    border-bottom: 2px solid #d6b56d;
+    border-bottom: 2px solid #4f2188; /* Alterado para roxo */
     padding-bottom: 8px;
 }
 
