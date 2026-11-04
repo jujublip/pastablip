@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #4f2188; /* Alterado para roxo */
+    background-color: #4f2188; /* Fundo roxo sem o verde antigo */
     color: white;
     text-align: center;
     padding: 35px 20px;
@@ -22,6 +21,7 @@ header {
 header h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
+    color: #ffffff; /* Título do cabeçalho branco */
 }
 
 header p {
@@ -46,7 +46,7 @@ section {
 h2 {
     color: #245b4b;
     margin-bottom: 15px;
-    border-bottom: 2px solid #4f2188; /* Alterado para roxo */
+    border-bottom: 2px solid #4f2188; /* Linha divisória roxa */
     padding-bottom: 8px;
 }
 
